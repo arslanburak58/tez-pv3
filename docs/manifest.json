@@ -6,5 +6,5 @@
   "checkpoints": {},
   "test_count": 4,
   "experiment_count": 0,
-  "notes": "S0 kapatildi (champion-stage0 tag mevcut). S1 Literatur basladi. Henuz model champion yok."
+  "notes": "S0 kapatildi (champion-stage0 tag). S1 Literatur: kapsam taramasi tamam, bosluklar (CQR, PV-robustness, domain-gen) belirlendi. Henuz model yok."
 }
