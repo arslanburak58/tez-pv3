@@ -2,13 +2,9 @@
   "project": "tez-pv3",
   "active_stage": "S1",
   "last_updated": "2026-05-29",
-  "champion": {
-    "stage": null,
-    "checkpoint": null,
-    "metrics": {}
-  },
+  "champion": { "stage": null, "checkpoint": null, "metrics": {} },
   "checkpoints": {},
-  "test_count": 0,
+  "test_count": 4,
   "experiment_count": 0,
-  "notes": "Bootstrap aşamasında. Henüz model yok."
+  "notes": "S0 kapatildi (champion-stage0 tag mevcut). S1 Literatur basladi. Henuz model champion yok."
 }
