@@ -5,10 +5,9 @@
 **Durum:** S1 kapsam taraması yapıldı, boşluklar belirlendi
 
 ## Bekleyen görev
-- [ ] CQR / conformal prediction kaynaklarını ekle (Romano ve ark., 2019 vd.) — eksen-2 boşluğu
-- [ ] PV'de sensör-kaybı robustness + cross-site/zero-shot domain generalization kaynakları ekle — eksen-3 boşluğu
-- [ ] Yanlış etiketli "Robust Probabilistic..." defterini düzelt / PV kaynaklarını doğru deftere taşı (NotebookLM tarafı)
-- [ ] skill_lit_synth.md'yi Claude Project'e yükle (Project tarafı)
+- [ ] İki IEEE kaynağını kütüphane erişimiyle ekle (Distributed PV-Perceived Data Quality; Transfer Learning Across Regions) — paywall, erişim bekliyor
+- [ ] Yanlış etiketli "Robust Probabilistic..." defterini düzelt (NotebookLM tarafı)
+- [ ] skill_lit_synth.md'yi Claude Project'e yükle (oluşturuldu, yükleme bekliyor)
 - [ ] docs/literatur_ozeti.md: tematik sentez + araştırma boşluğu cümlesi (Opus + ET oturumu)
 - [ ] Atiea (2025) + Ali ve ark. (2026) fark konumlandırması (Opus oturumu)
 
@@ -16,4 +15,4 @@
 Yok.
 
 ## Son oturum özeti
-S1 literatür kapsam taraması yapıldı. PV tabanı tek defterde: "TEZ — PV Olasılıksal Tahmin" (28 kaynak). Eksen-1 (base/ensemble: XGBoost, LightGBM, CatBoost/Dorogush 2018, stacking, Transformer/TFT) tam. Eksen-2 quantile temeli var (Koenker & Bassett 1978; Gneiting & Raftery 2007 CRPS) ama CQR/conformal boşluk. Eksen-3 (PV sensör-kaybı robustness + zero-shot domain generalization) boşluk = asıl katkı alanı. İki doğrudan öncül teyit: Atiea ve ark. (2025, Results in Engineering) ve Ali ve ark. (2026, Energies/HybrEnNet, PVOD v1.0); ikisi de deterministik, robustness/zero-shot test etmiyor. 43 kaynaklık defter yanlış etiketli (deep-research-agents içeriği), S1'de kullanılmadı.
+S1 boşluk doldurma tamam. "TEZ — PV Olasılıksal Tahmin" defteri 28 → 36 kaynak. Eklenen 8 kaynak: CQR (Romano ve ark. 2019; Ensemble CQR for TS; Gentle Intro Conformal TS), PV robustness (resilient quantile regression missing values; ultra-short-term missing-data insensitive), domain generalization (SPIRIT zero-shot; cross-site physics-informed transfer; kıtalar arası transfer). 2 IEEE kaynağı paywall nedeniyle erişim bekliyor. Üç eksen literatürü kapandı; sentez yazımına hazır.
